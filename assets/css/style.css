@@ -184,7 +184,7 @@ body.active { overflow-y: hidden; }
   transition: var(--transition-1);
 }
 
-.btn-primary { background: var(--pink); }
+.btn-primary { background: var(--pink); color: white; }
 
 .btn-primary:is(:hover, :focus) { background: var(--raisin-black-1); }
 
