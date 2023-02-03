@@ -428,6 +428,19 @@ body.active { overflow-y: hidden; }
   margin-right: 40px;
 }
 
+.privacy-text-list { 
+  list-style: disc;
+  margin-bottom: 20px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.privacy-tex1 { 
+  margin-bottom: 20px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
 .privacy-bottom-text {
   display: flex;
   justify-content: flex-start;
@@ -443,6 +456,10 @@ body.active { overflow-y: hidden; }
 
 .spacing{
   margin-bottom: 100px;
+}
+
+.doublespacing{
+  margin-bottom: 150px;
 }
 
 
