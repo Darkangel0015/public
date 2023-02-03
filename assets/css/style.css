@@ -139,9 +139,6 @@ body.active { overflow-y: hidden; }
 }
 
 
-
-
-
 /*-----------------------------------*\
   #REUSED STYLE
 \*-----------------------------------*/
@@ -343,7 +340,110 @@ body.active { overflow-y: hidden; }
 }
 
 
+/*-----------------------------------*\
+  #PRIVACY
+\*-----------------------------------*/
 
+.indexprivacy {
+  background-size: 100%;
+  background-position: center;
+  padding: 20px 0 var(--section-padding);
+}
+
+.sectionprivacy {
+  background: url("../images/bg_black.png") no-repeat;
+  background-size: cover;
+  background-position: top center;
+  margin-top: 10px;
+  padding: var(--section-padding) 0;
+  height: 50vh;
+  max-height: 1000px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.h1privacy{
+  margin-top: 100px;
+  color: var(--white);
+  font-family: var(--ff-refault);
+  font-size: var(--fs-2);
+  font-weight: var(--fw-400);
+  text-transform: uppercase;
+}
+
+.section-wrapper {
+  background: url("../images/section-wrapper-bg.jpg") no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.privacy-content {
+  background: var(--raisin-black-1);
+  color: var(--white);
+  padding: 40px 20px;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px hsla(0, 0%, 0%, 0.2);
+}
+
+.privacy-subtitle1 {
+  color: var(--pink);
+  font-family: var(--ff-oswald);
+  font-size: var(--fs-5);
+  font-weight: var(--fw-500);
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+
+.privacy-subtitle2 {
+  color: var(--pink);
+  font-family: var(--ff-oswald);
+  font-size: var(--fs-7);
+  font-weight: var(--fw-500);
+  margin-bottom: 15px;
+}
+
+.privacy-title {
+  font-family: var(--ff-oswald);
+  font-size: var(--fs-2);
+  line-height: 1.2;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.privacy-title strong { color: var(--pink); }
+
+.privacy-text,
+.privacy-bottom-text {
+  color: var(--light-gray);
+  font-size: var(--fs-8);
+  line-height: 1.8;
+  letter-spacing: 0.5px;
+}
+
+.privacy-text { 
+  margin-bottom: 20px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.privacy-bottom-text {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+.privacy-bottom-text ion-icon {
+  color: var(--pink);
+  font-size: 25px;
+  --ionicon-stroke-width: 45px;
+}
+
+.spacing{
+  margin-bottom: 100px;
+}
 
 
 /*-----------------------------------*\
