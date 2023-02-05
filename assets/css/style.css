@@ -339,6 +339,16 @@ body.active { overflow-y: hidden; }
   transition: var(--transition-3);
 }
 
+/*-----------------------------------*\
+  #LOGIN
+\*-----------------------------------*/
+
+.indexlogin {
+  margin-top: 20%;
+  background-size: 100%;
+  background-position: center;
+  padding: 20px 0 var(--section-padding);
+}
 
 /*-----------------------------------*\
   #PRIVACY
